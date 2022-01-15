@@ -1,0 +1,357 @@
+body {
+    background: #121212;
+    margin: 0 ;
+    font-size: 14px;
+    color: #ffffff;
+    --changing: hsla;
+}
+*,
+*:before,
+*:after {
+     box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0 ;
+}
+.container {
+    padding: 0px 50px;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+.container__second__one {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+.intro{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    margin-top: 75px;
+    background:
+url("../untitled1/backgroundimages/thewikiintro13.png")
+center no-repeat;
+    background-size: auto;
+    background-color: #571b55 ;
+}
+.findbuttom{
+    width: 100%;
+    height: 30px;
+    margin: 0 ;
+    margin-top: 72px;
+    background:
+            url("../untitled1/backgroundimages/foundingicon.png")
+            center no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header__inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+.nav_link{
+align-items: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    font-family: 'Satoshi', sans-serif;
+    color: #f9a825;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav_link:hover{
+    color: #ffffff;
+    opacity: 1;
+}
+.nav_login{
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    font-family: 'Satoshi', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav_login:hover {
+    color: #f9a825;
+    opacity: 1;
+}
+.container__pictures
+{
+    width: 100%;
+    max-width: 465px;
+    margin: 0 auto ;
+    justify-content: flex-start;
+}
+.aybolpicture
+{
+    display: flex;
+    width: 70px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 132px;
+    justify-content: center;
+}
+* {
+    box-sizing: border-box;
+}
+form.findet input[type=text] {
+    margin-top: 64px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0px solid grey;
+    float: left;
+    width: 80%;
+    background: #3e3e3e;
+    outline: none;
+}
+form.findet button {
+    margin-top: 64px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #c0c0c0;
+    color: #3e3e3e;
+    font-size: 17px;
+    border: 0px solid #3e3e3e;
+    border-left: none;
+    cursor: pointer;
+    outline: none;
+}
+form.findet button:hover {
+    background: #f9a825;
+}
+form.findet::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.rectangle__inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+.rectangle{
+    margin: 64px 15px 0px  0px ;
+    display: flex;
+    width:330px;
+    height:450px;
+    background:#3E3E3E;
+    justify-content: center;
+}
+.rectangle__second {
+    margin-top: 64px;
+    display: flex;
+    width:700px;
+    height:450px;
+    background: #777777;
+    flex-direction: column;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    }
+.features{
+    display: flex;
+
+}
+.features__items{
+    width: 37%;
+    height: 70%;
+    text-align: center;
+}
+#change_picture_aybol{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background:
+            url("../untitled1/backgroundimages/notwalkstoitaybol1.png") center no-repeat;
+}
+#change_picture_aybol:hover
+{
+    background:url("../untitled1/backgroundimages/notwalkstoitaybol1_back.png")center no-repeat;
+}
+#change_picture_aybol:after
+{
+    background:url("../untitled1/backgroundimages/notwalkstoitaybol1.png")center no-repeat;
+}
+#change_picture_azamat{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-size: auto;
+    background:
+            url("../untitled1/backgroundimages/NEWazamatnotwalk 1.png") center no-repeat;
+}
+#change_picture_azamat:hover
+{
+    background:url("../untitled1/backgroundimages/NEWazamatnotwalk_back.png")center no-repeat;
+}
+#change_picture_azamat:after
+{
+    background:url("../untitled1/backgroundimages/NEWazamatnotwalk 1.png")center no-repeat;
+}
+#change_picture_agzam{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-size: auto;
+    background:
+            url("../untitled1/backgroundimages/NOTWALK 1.png") center no-repeat;
+}
+#change_picture_agzam:hover
+{
+    background:url("../untitled1/backgroundimages/NOTWALK_back.png")center no-repeat;
+}
+#change_picture_agzam:after
+{
+    background:url("../untitled1/backgroundimages/NOTWALK 1.png")center no-repeat;
+}
+#change_picture_stas{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-size: auto;
+    background:
+            url("../untitled1/backgroundimages/Stas.png") center no-repeat;
+}
+#change_picture_stas:hover
+{
+    background:url("../untitled1/backgroundimages/stas_back.png")center no-repeat;
+}
+#change_picture_stas:after
+{
+    background:url("../untitled1/backgroundimages/Stas.png")center no-repeat;
+}
+.features__icon{
+    padding: 50px 135px;
+    font-size: 36px;
+    font-family: 'Satoshi', sans-serif;
+}
+.features__icon__second
+{
+    padding: 0 40px;
+    font-size: 26px;
+    font-family: 'Satoshi', sans-serif;
+}
+.bottom_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+    height: 470px;
+    background-color: #000000;
+background-size: auto;
+}
+.intro__down{
+    display: flex;
+    width: 100%;
+    height: 474px;
+    background-size: auto;
+    background-color: #000000;
+}
+.icon_bottom_text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 7px solid white;
+}
+.text1__1{
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+}
+.text1__2{
+    display: flex;
+
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 47px;
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social_icons{
+    display: flex;
+    justify-content: space-between;
+}
+.text_bottom2{
+    margin: 0px 0px;
+    display: flex;
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 10px;
+}
+.last_bottom_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 5px;
+}
+.nav_link__pages{
+    margin: -20px 25px;
+    align-items: center;
+    display: inline-block;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Satoshi', sans-serif;
+    color: #777777;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav_link__pages:hover{
+    color: #ffffff;
+    opacity: 1;
+}
+.nav_link__pages__select{
+    margin: -18px 25px;
+    align-items: center;
+    display: inline-block;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Satoshi', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav_link__pages__select:hover{
+    color: #ffffff;
+    opacity: 1;
+}
+.container__photo{
+    margin-left: 25px;
+}
+.rectangle__down{
+     display: flex;
+     margin: 64px 0 ;
+     width:1170px;
+     height:45px;
+     background:#3E3E3E;
+     justify-content: center;
+ }
