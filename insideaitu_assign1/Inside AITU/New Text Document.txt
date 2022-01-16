@@ -1,2 +1,0 @@
-'Clash Display', sans-serif;
-'Satoshi', sans-serif;
