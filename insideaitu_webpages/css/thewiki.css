@@ -3,7 +3,7 @@ body {
     margin: 0 ;
     font-size: 14px;
     color: #ffffff;
-    --changing: hsla;
+    min-width: 1170px;
 }
 *,
 *:before,
