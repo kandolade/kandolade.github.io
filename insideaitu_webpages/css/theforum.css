@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6{
         height: 44px;
     }
     .container__picture__logo{
-        height: 20px;
+        height: 32px;
     }
     .topic__problem{
         font-size: 16px;
@@ -518,10 +518,10 @@ h1, h2, h3, h4, h5, h6{
         display: none
     }
     .container__photo{
-        margin: 0 10px 0 10px;
+        margin: 0 19px 0 19px;
     }
     .last_bottom_text{
-        font-size: 10px;
+        font-size: 11px;
     }
     .text1__1{
         font-size: 11px;
@@ -541,7 +541,7 @@ h1, h2, h3, h4, h5, h6{
     }
     .bottom_container{
         padding: 5px;
-        height: 200px;
+        height: 300px;
         margin-top: 50px;
     }
     .intro {
@@ -566,6 +566,16 @@ h1, h2, h3, h4, h5, h6{
     }
     .icon_bottom_text1{
         border-bottom: 3px solid #ffffff;
+    }
+    .icon_bottom_text1{
+        justify-content:center ;
+    }
+    .bottom_text1{
+        display: none;
+    }
+    .bottom_logo_size{
+        width: 100px;
+        height: 100px;
     }
 }
 @media only screen and (max-width: 320px){
