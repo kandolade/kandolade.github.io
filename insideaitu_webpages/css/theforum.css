@@ -503,13 +503,13 @@ h1, h2, h3, h4, h5, h6{
         font-size: 16px;
     }
     .container__text__inside {
-        width: 75%;
+        width: 81%;
     }
     .container__picture{
         width: 10%;
     }
     .container__time{
-        width:19%;
+        width:13%;
     }
     .topic__time{
         margin-left: 15px;
