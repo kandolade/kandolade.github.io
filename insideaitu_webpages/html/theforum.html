@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/css?f[]=clash-display@700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=1170">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width">
     <title>INSIDEAITU - The Forum</title>
     <link rel="stylesheet" href="../css/theforum.css" >
     <link rel="shortcut icon" href="../images/logo.png">
@@ -18,10 +19,66 @@
                 <a class="nav_link" href="../index.html"> THE GAME</a>
                 <a class="nav_link" href="theforum.html"> THE FORUM</a>
                 <a class="nav_link" href="thewiki.html"> THE WIKI</a>
+                <a class="nav_link_mobile" href="theforum.html"> THE FORUM</a>
+
             </nav>
             <nav class="nav">
                 <a class="nav_login" href="pages_404.html">LOGIN</a>
                 <a class="nav_login" href="pages_404.html">REGISTER</a>
+            </nav>
+
+            <nav class="off__canvas">
+                <nav class="navbar navbar-light bg-orange fixed-right">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><b>THE GAME</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"><b>THE FORUM</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><b>THE WIKI</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">LOGIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">REGISTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">GENERAL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">NEWS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">STORY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">HACKS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">TECHNICAL</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
             </nav>
         </div>
     </div>
@@ -36,27 +93,31 @@
 <div class="intro"></div>
 
 <div class="container">
-    <div class="features" >
+    <div class="features">
         <a class="rectangle" href="pages_404.html">
             <div class="rectangle__inside"></div>
-            <h4 class="features__title">General</h4>
+            <div class="title_inside">
+                <h4 class="features__title">General</h4></div>
 
         </a>
 
         <a class="rectangle" href="pages_404.html">
             <div class="rectangle__inside"></div>
-            <h4 class="features__title">News</h4>
+            <div class="title_inside">
+                <h4 class="features__title">News</h4></div>
 
         </a>
 
         <a class="rectangle" href="pages_404.html">
             <div class="rectangle__inside"></div>
-            <h4 class="features__title">Story</h4>
+            <div class="title_inside">
+                <h4 class="features__title">Story</h4></div>
 
         </a>
         <a class="rectangle" href="pages_404.html">
-                    <div class="rectangle__inside"></div>
-                    <h4 class="features__title">Hacks</h4>
+            <div class="rectangle__inside"></div>
+            <div class="title_inside">
+                <h4 class="features__title">Hacks</h4></div>
 
         </a>
     </div>
@@ -65,22 +126,22 @@
     <div class="features" >
         <a class="rectangle" href="pages_404.html">
             <div class="rectangle__inside"></div>
-            <h4 class="features__title">Technical</h4>
+            <div class="title_inside">
+                <h4 class="features__title">Technical</h4></div>
 
         </a>
 
         <a class="rectangle" href="#">
-
-            <h4 class="features__title">In development</h4>
-        </a>
-
-        <a class="rectangle" href="#">
-            <h4 class="features__title">In development</h4>
-
+            <div class="title_inside__hov">
+                <h4 class="features__title">In development</h4></div>
         </a>
         <a class="rectangle" href="#">
-            <h4 class="features__title">In development</h4>
-
+            <div class="title_inside__hov">
+                <h4 class="features__title">In development</h4></div>
+        </a>
+        <a class="rectangle" href="#">
+            <div class="title_inside__hov">
+                <h4 class="features__title">In development</h4></div>
         </a>
     </div>
 </div>
@@ -89,36 +150,36 @@
     <div class="rectangle___down"></div>
     <a class="rectangle__buttoms" href="pages_404.html">
         <div class="container__picture">
-            <img src="../images/question%204.png"  height="66px">
-        </div> <div class="container__text__inside">
-
-        <h3 class="topic__problem">I can't find Stanislav for the assignment. HELP!!!</h3>   </div>
+            <img class="container__picture__pop" src="../images/question%204.png" >
+        </div>
+        <div class="container__text__inside">
+            <h3 class="topic__problem">I can't find Stanislav for the assignment. HELP!!!</h3>   </div>
         <div class="container__time">
-        <h4 class="topic__time">Two days ago</h4>   </div>
+            <h4 class="topic__time">Two days ago</h4>   </div>
     </a>
 
     <a class="rectangle__buttoms" href="pages_404.html">
         <div class="container__picture">
-              <img src="../images/question%204.png"  height="66px">
+            <img class="container__picture__pop" src="../images/question%204.png">
         </div>
         <div class="container__text__inside">
-               <h3 class="topic__problem">Why wasn't I added to the game? I also go to uni((((</h3>   </div>
-            <div class="container__time">
-               <h4 class="topic__time">Three days ago</h4>   </div>
+            <h3 class="topic__problem">Why wasn't I added to the game? I also go to uni((((</h3>   </div>
+        <div class="container__time">
+            <h4 class="topic__time">Three days ago</h4>   </div>
     </a>
 
     <a class="rectangle__buttoms" href="pages_404.html">
         <div class="container__picture">
-            <img src="../images/question%204.png"  height="66px">
+            <img class="container__picture__pop" src="../images/question%204.png" >
         </div>
         <div class="container__text__inside">
-        <h3 class="topic__problem">I drew art with your game can you see?<3</h3>   </div>
-            <div class="container__time">
-        <h4 class="topic__time">A week ago</h4>   </div>
+            <h3 class="topic__problem">I drew art with your game can you see?<3</h3>   </div>
+        <div class="container__time">
+            <h4 class="topic__time">A week ago</h4>   </div>
     </a>
     <a class="rectangle__buttoms" href="pages_404.html">
         <div class="container__picture">
-            <img src="../images/Frame%207.png"  height="66px">
+            <img class="container__picture__pop" src="../images/Frame%207.png">
         </div>
         <div class="container__text__inside">
             <h3 class="topic__problem">Make the mini-map to see the offices, and it's not con...</h3>
@@ -129,7 +190,7 @@
     </a>
     <a class="rectangle__buttoms" href="pages_404.html">
         <div class="container__picture">
-            <img src="../images/question%204.png"  height="66px">
+            <img class="container__picture__pop" src="../images/question%204.png" >
         </div>
         <div class="container__text__inside">
             <h3 class="topic__problem">My God, this site is uncomfortable, who drew this?</h3>
@@ -140,7 +201,7 @@
     </a>
     <a class="rectangle__buttoms" href="pages_404.html">
         <div class="container__picture">
-            <img src="../images/deadcup1.png"  height="66px">
+            <img class="container__picture__pop" src="../images/deadcup1.png" >
         </div>
         <div class="container__text__inside">
             <h3 class="topic__problem">When is the multiplayer already, we can't normally pla...</h3>
@@ -170,26 +231,26 @@
         </div>
 
         <div class="bottom_logo">
-            <img src="../images/logo.png" height="150">
+            <img class="bottom_logo_size" src="../images/logo.png">
         </div>
 
     </div>
 
     <div class="social_media">
         <div class="text_bottom2">
-            <h1>Where to find us</h1>
+            <p>Where to find us</p>
         </div>
         <div class="container__photo">
-            <a href="https://t.me/+lYbr7KEq0ghjMDVi"> <img src="../images/telegram-icon.png"  alt="" height="30"> </a>       </div>
+            <a href="https://t.me/+lYbr7KEq0ghjMDVi"> <img class="container__picture__logo" src="../images/telegram-icon.png"  alt=""> </a>       </div>
 
         <div class="container__photo">
-            <a href="https://discord.gg/3EkHUug8">  <img src="../images/discord_icon.png" alt="" height="30">   </a>      </div>
+            <a href="https://discord.gg/3EkHUug8">  <img class="container__picture__logo" src="../images/discord_icon.png" alt="" height="30">   </a>      </div>
 
         <div class="container__photo">
-            <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img src="../images/youtube-logo.png" alt="" height="30">    </a>     </div>
+            <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img class="container__picture__logo" src="../images/youtube-logo.png" alt="" height="30">    </a>     </div>
 
         <div class="container__photo">
-            <a href="https://www.instagram.com/bo_olean/"><img src="../images/instagram_icon.png" alt="" height="30">   </a>      </div>
+            <a href="https://www.instagram.com/bo_olean/"><img class="container__picture__logo" src="../images/instagram_icon.png" alt="" height="30">   </a>      </div>
 
     </div>
     </div>
@@ -197,8 +258,8 @@
     </div>
 
     <div class="last_bottom_text">
-        <h1>some inscription about rights, etc.some inscription about rights, etc.some inscription about rights, etc.some inscription about rights,<br>
-            etc.some inscription about rights, etc.some inscription about rights, etc.</h1>
+        <p>some inscription about rights, etc.some inscription about rights, etc.some inscription about rights, etc.some inscription about rights,<br>
+            etc.some inscription about rights, etc.some inscription about rights, etc.</p>
     </div>
 </footer>
 

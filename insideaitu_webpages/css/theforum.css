@@ -3,7 +3,6 @@ body {
     margin: 0 ;
     font-size: 14px;
     color: #ffffff;
-    min-width: 1170px;
 }
 *,
 *:before,
@@ -19,6 +18,7 @@ h1, h2, h3, h4, h5, h6{
     max-width: 1170px;
     margin: 0 auto ;
 }
+
 .intro{
     display: flex;
     width: 100%;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
             url("../images/Group 5.png")
             center no-repeat;
     background-size: cover;
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 .features{
     display: flex;
@@ -45,13 +45,11 @@ margin-bottom: 50px;
     text-transform: uppercase;
     font-size:19px;
     text-decoration: none;
-    padding-top: 26px;
-    padding-left: 37px ;
-
-
+    align-items: center;
+    justify-content: center;
 }
 .rectangle{
-    margin: 15px 0px 15px 0;
+    margin: 15px 0 15px 0;
     display: flex;
     width:242px;
     height:77px;
@@ -60,7 +58,8 @@ margin-bottom: 50px;
     transition: color .5s linear;
     text-decoration: none;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 3px;
+    align-items: center;
 
 }
 .rectangle:hover {
@@ -69,11 +68,21 @@ margin-bottom: 50px;
 
 .rectangle__inside{
     display: flex;
-    width:77px;
+    width:33%;
     height:77px;
     background:#777777;
     border-radius: 3px;
 
+}
+.title_inside{
+    width:67%;
+    align-items: center;
+    justify-content: center;
+}
+.title_inside__hov{
+    width:100%;
+    align-items: center;
+    justify-content: center;
 }
 .header{
     width: 100%;
@@ -103,6 +112,16 @@ margin-bottom: 50px;
     text-decoration: none;
     transition: color .2s linear;
 }
+.nav_link_mobile{
+    align-items: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    font-family: 'Satoshi', sans-serif;
+    color: #f9a825;
+    text-decoration: none;
+    transition: color .2s linear;
+}
 .nav_link:hover{
     color: #ffffff;
     opacity: 1;
@@ -119,6 +138,33 @@ margin-bottom: 50px;
 .nav_login:hover {
     color: #f9a825;
     opacity: 1;
+}
+.off__canvas{
+    align-items: center;
+    padding-top: 15px
+}
+.offcanvas{
+    background-color: #121212 ;
+}
+
+.btn-close{
+    background-image: url("../images/closepok.png");
+    width: 1em;
+    height: 1em;
+
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("../images/menubar.png")
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #f9a825;
+    font-family: "Satoshi Variable";
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+    font-family: "Satoshi Variable";
+    font-size: 20px;
 }
 .bottom_container{
     display: flex;
@@ -144,6 +190,14 @@ margin-bottom: 50px;
     justify-content: space-between;
     align-items: center;
     border-bottom: 7px solid white;
+}
+.bottom_logo{
+    display: flex;
+    justify-content: right;
+}
+.bottom_logo_size{
+    width: 150px;
+    height: 150px;
 }
 .text1__1{
     display: flex;
@@ -175,7 +229,7 @@ margin-bottom: 50px;
     display: flex;
     color: white;
     font-family: 'Clash Display', sans-serif;
-    font-size: 10px;
+    font-size: 25px;
 }
 .last_bottom_text{
     display: flex;
@@ -183,7 +237,7 @@ margin-bottom: 50px;
     text-align: center;
     color: white;
     font-family: 'Clash Display', sans-serif;
-    font-size: 5px;
+    font-size: 11px;
 }
 .rectangle___down{
     display: flex;
@@ -212,21 +266,26 @@ margin-bottom: 50px;
 .container__text__inside{
     display: flex;
     width: 76%;
+    align-items: center;
+    justify-content: left;
 
 }
 .container__picture{
-    margin: 5px 5px 15px 10px ;
     display: flex;
     width: 10%;
-
+    align-items: center;
+    justify-content: center;
+}
+.container__picture__pop{
+    height: 66px;
 }
 .container__time{
     display: flex;
     width: 18%;
-
+    align-items: center;
+    justify-content: right;
 }
 .topic__problem{
-    margin: 25px 0px;
     display: flex;
     color: white;
     font-family: 'Satoshi', sans-serif;
@@ -239,5 +298,273 @@ margin-bottom: 50px;
     font-family: 'Satoshi', sans-serif;
     font-size: 20px;
     text-decoration: none;
-    margin-top: 26px;
+}
+
+.container__picture__logo{
+    height: 30px;
+}
+@media only screen and (max-width: 1920px) {
+    .off__canvas{
+        display: none;
+    }
+    .nav_link_mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .nav {
+        font-size: 19px;
+    }
+    .rectangle{
+        width: 200px;
+    }
+    .features__title{
+        font-size: 20px;
+    }
+    .rectangle__inside {
+        width: 25% ;
+    }
+    .rectangle__buttoms{
+        height: 99px;
+    }
+    .container__text__inside{
+        margin-left: 8px;
+    }
+    .topic__problem{
+        font-size: 29px;
+    }
+    .topic__time{
+        font-size: 22px;
+    }
+    .text_bottom2{
+        font-size: 24px;
+    }
+    .last_bottom_text{
+        font-size: 10px;
+    }
+    .nav_link_mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px){
+    .nav {
+        font-size: 18px;
+    }
+    .rectangle{
+        width:155px;
+    }
+    .features__title{
+        font-size: 18px;
+    }
+    .rectangle__inside {
+        width: 17% ;
+    }
+    .rectangle__buttoms{
+        height: 107px;
+    }
+    .container__text__inside{
+        margin-left: 8px;
+    }
+    .topic__problem{
+        font-size: 25px;
+    }
+    .topic__time{
+        font-size: 18px;
+    }
+    .text_bottom2{
+        font-size: 24px;
+    }
+    .last_bottom_text{
+        font-size: 10px;
+    }
+    .text1__1{
+        font-size: 18px;
+    }
+    .text1__2{
+        font-size: 37px;
+    }
+    .bottom_logo_size{
+        width: 110px;
+        height: 110px;
+    }
+    .text_bottom2{
+        font-size: 20px;
+    }
+    .last_bottom_text{
+        font-size: 10px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .nav_login{
+        display: none;
+    }
+    .nav_link{
+        display: none;
+    }
+    .features{
+        display: none;
+    }
+    .off__canvas{
+        display: initial;
+    }
+
+    .rectangle__buttoms{
+        height: 85px;
+    }
+    .container__text__inside{
+        margin-left: 8px;
+        width: 65%;
+    }
+    .container__picture{
+        width: 15%;
+    }
+    .container__picture__pop{
+        height: 55px;
+    }
+    .topic__problem{
+        font-size: 18px;
+    }
+    .topic__time{
+        margin-left: 25px;
+        font-size: 13px;
+        width: 24%;
+    }
+    .text_bottom2{
+        font-size: 20px;
+    }
+    .last_bottom_text{
+        font-size: 10px;
+    }
+    .text1__1{
+        font-size: 11px;
+    }
+    .text1__2{
+        font-size: 27px;
+    }
+    .bottom_logo_size{
+        width: 70px;
+        height: 70px;
+    }
+    .container {
+        padding: 0px 15px;
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto ;
+    }
+    .bottom_container{
+        padding: 15px;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .intro {
+        height: 120px;
+        margin-bottom: 15px;
+
+    }
+    .nav_link_mobile{
+        display: initial;
+    }
+    .rectangle___down{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .nav_login{
+        display: none;
+    }
+    .nav_link{
+        display: none;
+    }
+    .features{
+        display: none;
+    }
+    .off__canvas{
+        display: initial;
+    }
+
+    .rectangle__buttoms{
+        height: 88px;
+    }
+    .container__text__inside{
+        margin-left: 8px;
+        width: 65%;
+    }
+    .container__picture{
+        width: 15%;
+    }
+    .container__picture__pop{
+        height: 44px;
+    }
+    .container__picture__logo{
+        height: 20px;
+    }
+    .topic__problem{
+        font-size: 16px;
+    }
+    .topic__time{
+        margin-left: 15px;
+        font-size: 11px;
+        width: 24%;
+    }
+    .text_bottom2{
+        display: none
+    }
+    .container__photo{
+        margin: 0 10px 0 10px;
+    }
+    .last_bottom_text{
+        font-size: 10px;
+    }
+    .text1__1{
+        font-size: 11px;
+    }
+    .text1__2{
+        font-size: 18px;
+    }
+    .bottom_logo_size{
+        width: 50px;
+        height: 50px;
+    }
+    .container {
+        padding: 0px 5px;
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto ;
+    }
+    .bottom_container{
+        padding: 5px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .intro {
+        height: 90px;
+        margin-bottom: 15px;
+
+    }
+    .nav_link_mobile{
+        display: initial;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .rectangle___down{
+        margin-top: 10px;
+        height: 20px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        height: 15px;
+        width: 15px;
+    }
+    .last_bottom_text{
+        font-size: 5px;
+    }
+    .icon_bottom_text1{
+        border-bottom: 3px solid #ffffff;
+    }
+}
+@media only screen and (max-width: 320px){
+
+
+
+
 }
