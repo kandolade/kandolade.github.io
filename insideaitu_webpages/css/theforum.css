@@ -502,6 +502,15 @@ h1, h2, h3, h4, h5, h6{
     .topic__problem{
         font-size: 16px;
     }
+    .container__text__inside {
+        width: 69%;
+    }
+    .container__picture{
+        width: 10%;
+    }
+    .container__time{
+        width: 25%;
+    }
     .topic__time{
         margin-left: 15px;
         font-size: 11px;
