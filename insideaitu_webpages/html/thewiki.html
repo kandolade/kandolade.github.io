@@ -4,26 +4,69 @@
     <meta charset="UTF-8">
     <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/css?f[]=clash-display@700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=1170">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width">
     <title>INSIDEAITU - The Wiki</title>
     <link rel="stylesheet" href="../css/thewiki.css" >
     <link rel="shortcut icon" href="../images/logo.png">
 </head>
 <body>
 <header class="header">
- <div class="container">
-     <div class="header__inner">
-         <nav class="nav">
-             <a class="nav_link" href="../index.html"> THE GAME</a>
-             <a class="nav_link" href="theforum.html"> THE FORUM</a>
-             <a class="nav_link" href="thewiki.html"> THE WIKI</a>
-         </nav>
-         <nav class="nav">
-             <a class="nav_login" href="pages_404.html">LOGIN</a>
-             <a class="nav_login" href="pages_404.html">REGISTER</a>
-         </nav>
-     </div>
- </div>
+    <div class="container">
+        <div class="header__inner__first">
+            <nav class="nav">
+                <a class="nav_link" href="../index.html"> THE GAME</a>
+                <a class="nav_link" href="theforum.html"> THE FORUM</a>
+                <a class="nav_link" href="thewiki.html"> THE WIKI</a>
+                <a class="nav_link_mobile" href="thewiki.html"> THE WIKI</a>
+            </nav>
+            <nav class="nav">
+                <a class="nav_login" href="pages_404.html">LOGIN</a>
+                <a class="nav_login" href="pages_404.html">REGISTER</a>
+            </nav>
+            <nav class="off__canvas">
+                <nav class="navbar navbar-light bg-orange fixed-right">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html"><b>THE GAME</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"><b>THE FORUM</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="thewiki.html"><b>THE WIKI</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages_404.html">LOGIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages_404.html">REGISTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <form class="d-flex">
+                                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+                                    </form>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </div>
+    </div>
 </header>
 
 <!-- Красивая картина поверх всего,но ломает сайт
@@ -34,25 +77,24 @@
 
 <div class="intro"></div>
 <div class="container">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <form class="findet" action="thewiki.html">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
+    <div id="search_div">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+        </form>
     </div>
 </div>
 <div class="container">
     <div class="header__inner">
         <div class="rectangle">
-               <div id="change_picture_aybol" href="#"></div>
+            <div id="change_picture_aybol" href="#"></div>
         </div>
 
 
 
         <div class="rectangle__second">
             <h2 class="features__icon">Aybol Serik</h2>
-            <h3 class="features__icon__second">It is suspected that he can read minds as often as thoughts. Perhaps this is just an attempt to show how well he understands people. </h3>
+            <h3 class="features__icon__second">"It is suspected that he can read minds as often as thoughts. Perhaps this is just an attempt to show how well he understands people." </h3>
         </div>
     </div>
 </div>
@@ -64,7 +106,7 @@
         </div>
         <div class="rectangle__second">
             <h2 class="features__icon">Azamat Magdanov</h2>
-            <h3 class="features__icon__second"> Azamat is very afraid of what has to do with horror and blood, but watches horror movies because Beka likes them. He has no sadistic feelings for his boyfriend, except that he once decided to put his foot on his head...  </h3>
+            <h3 class="features__icon__second"> "Azamat is very afraid of what has to do with horror and blood, but watches horror movies because Beka likes them. He has no sadistic feelings for his boyfriend, except that he once decided to put his foot on his head..."  </h3>
         </div>
     </div>
 </div>
@@ -76,7 +118,7 @@
         </div>
         <div class="rectangle__second">
             <h2 class="features__icon">Agzam Maksotov</h2>
-            <h3 class="features__icon__second"> He’s very sick in the morning, because he’s still half-awake, and his personality is the opposite. He becomes extremely rude and violent, so that others wonder if he has a split personality. </h3>
+            <h3 class="features__icon__second"> "He’s very sick in the morning, because he’s still half-awake, and his personality is the opposite. He becomes extremely rude and violent, so that others wonder if he has a split personality." </h3>
         </div>
     </div>
 </div>
@@ -88,20 +130,24 @@
         </div>
         <div class="rectangle__second">
             <h2 class="features__icon">Stas Tireshin</h2>
-            <h3 class="features__icon__second"> Stas barely expresses emotion, the only exception being his anger or irritation, which he exhibits all the time, being the oldest in the group. Not that he likes it. </h3>
+            <h3 class="features__icon__second"> "Stas barely expresses emotion, the only exception being his anger or irritation, which he exhibits all the time, being the oldest in the group. Not that he likes it." </h3>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="header__inner">
         <div class="rectangle__down">
-                    <nav class="nav">
-                        <a class="nav_link__pages__select" href="thewiki.html"> 1</a>
-                        <a class="nav_link__pages" href="pages_404.html"> 2</a>
-                        <a class="nav_link__pages" href="pages_404.html"> 3</a>
-                        <a class="nav_link__pages" href="pages_404.html"> 4</a>
-                        <a class="nav_link__pages" href="pages_404.html"> 5</a>
-                    </nav>
+            <nav aria-label="...">
+                <ul class="pagination pagination-lg">
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -114,35 +160,34 @@
         </div>
 
         <div class="bottom_logo">
-            <img src="../images/logo.png" height="150">
+            <img class="bottom_logo_size" src="../images/logo.png">
         </div>
 
     </div>
 
     <div class="social_media">
         <div class="text_bottom2">
-            <h1>Where to find us</h1>
-</div>
+            <p>Where to find us</p>
+        </div>
         <div class="container__photo">
-            <a href="https://t.me/+lYbr7KEq0ghjMDVi"> <img src="../images/telegram-icon.png"  alt="" height="30"> </a>       </div>
+            <a href="https://t.me/+lYbr7KEq0ghjMDVi"> <img class="container__picture__logo" src="../images/telegram-icon.png"  alt=""> </a>       </div>
 
         <div class="container__photo">
-            <a href="https://discord.gg/3EkHUug8">  <img src="../images/discord_icon.png" alt="" height="30">   </a>      </div>
+            <a href="https://discord.gg/3EkHUug8">  <img class="container__picture__logo" src="../images/discord_icon.png" alt="" height="30">   </a>      </div>
 
         <div class="container__photo">
-            <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img src="../images/youtube-logo.png" alt="" height="30">    </a>     </div>
+            <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img class="container__picture__logo" src="../images/youtube-logo.png" alt="" height="30">    </a>     </div>
 
         <div class="container__photo">
-            <a href="https://www.instagram.com/bo_olean/"><img src="../images/instagram_icon.png" alt="" height="30">   </a>      </div>
+            <a href="https://www.instagram.com/bo_olean/"><img class="container__picture__logo" src="../images/instagram_icon.png" alt="" height="30">   </a>      </div>
 
     </div>
     </div>
-
     </div>
 
     <div class="last_bottom_text">
-        <h1>some inscription about rights, etc.some inscription about rights, etc.some inscription about rights, etc.some inscription about rights,<br>
-            etc.some inscription about rights, etc.some inscription about rights, etc.</h1>
+        <p>some inscription about rights, etc.some inscription about rights, etc.some inscription about rights, etc.some inscription about rights,<br>
+            etc.some inscription about rights, etc.some inscription about rights, etc.</p>
     </div>
 </footer>
 
