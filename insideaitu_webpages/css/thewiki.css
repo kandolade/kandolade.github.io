@@ -178,6 +178,20 @@ h1, h2, h3, h4, h5, h6{
     background-color: #777777;
     font-family: "Satoshi Variable", serif;
 }
+.container_obilki{
+    justify-content: space-around;
+    width:100%;
+    padding: 40px;
+    flex-direction: row;
+    display: flex;
+}
+.container_obilki  img {
+    width: 75px;
+margin-top: 50px;
+    margin-bottom: 25px;
+    height: 75px;
+}
+
 .btn{
     border-radius: 3px;
     font-family: "Satoshi Variable";
@@ -485,7 +499,13 @@ h1, h2, h3, h4, h5, h6{
     .nav_link_mobile{
         display: none;
     }
-
+    .container_obilki{
+        padding: 40px;
+    }
+    .container_obilki  img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
 @media only screen and (max-width: 992px){
     .text_bottom2{
@@ -527,7 +547,15 @@ h1, h2, h3, h4, h5, h6{
         font-size: 20px;
     }
 
-
+    .container_obilki{
+        padding: 15px;
+    }
+    .container_obilki  img {
+        width: 50px;
+        margin-top: 19px;
+        margin-bottom: 25px;
+        height: 50px;
+    }
 }
 @media only screen and (max-width: 768px){
     .intro{
@@ -618,6 +646,15 @@ h1, h2, h3, h4, h5, h6{
     .nav_link_right {
         display: none;
     }
+    .container_obilki{
+        padding: 15px;
+    }
+    .container_obilki  img {
+        width: 50px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        height: 50px;
+    }
 }
 @media only screen and (max-width: 480px){
     .intro{
@@ -626,6 +663,7 @@ h1, h2, h3, h4, h5, h6{
     .nav_login{
         display: none;
     }
+
     .nav_link{
         display: none;
     }
@@ -635,7 +673,7 @@ h1, h2, h3, h4, h5, h6{
     .off__canvas{
         display: initial;}
     .container {
-        padding: 0px 5px;
+        padding: 0px 2px;
         width: 100%;
         max-width: 1170px;
         margin: 0 auto ;
@@ -661,7 +699,7 @@ h1, h2, h3, h4, h5, h6{
         font-size: 18px;
     }
     .bottom_container{
-        padding: 5px;
+        padding: 2px;
         height: 300px;
         margin-top: 50px;
     }
@@ -690,6 +728,15 @@ h1, h2, h3, h4, h5, h6{
     }
     .features__icon__second{
         font-size: 18px;
+    }
+    .container_obilki{
+        padding: 7px;
+    }
+    .container_obilki  img {
+        width: 50px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        height: 50px;
     }
 }
 @media only screen and (max-width: 320px){}
