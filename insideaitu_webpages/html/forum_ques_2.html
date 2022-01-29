@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/css?f[]=clash-display@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width">
+    <title>INSIDEAITU - The Forum</title>
+    <link rel="stylesheet" href="../css/forum_ques.css" >
+    <link rel="shortcut icon" href="../images/logo.png">
+</head>
+<body>
+<div class="content_img"></div>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 nav">
+                <div class="col-8 nav_link">
+                    <div class="row justify-content-start">
+                        <div class="col-auto">
+                            <a href="../azamatpage.html" id="nav_link_left">THE GAME</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="forum_bootstrap.html" class="nav_link">THE FORUM</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="wiki_bootstrap.html" class="nav_link">THE WIKI</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 nav_login">
+                    <div class="row justify-content-end">
+                        <div class="col-auto">
+                            <a href="pages_404.html" class="nav_login" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" >LOGIN</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: #ffffff"><b>LOG IN</b></h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label  class="col-form-label">Email:</label>
+                                                    <input type="text" class="form-control recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="col-form-label">Password:</label>
+                                                    <input type="password" class="form-control recipient-name">
+                                                </div>
+                                            </form>
+                                            <a href="#" class="modal-title" style="color:#ffffff; margin-top:25px">Forgot your password?</a>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #777777">Register</button>
+                                            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">LOG IN NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <a href="pages_404.html" id="nav_login_right" data-bs-toggle="modal" data-bs-target="#Modal" data-bs-whatever="@getbootstrap" >REGISTER</a>
+                            <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ModalLabel" style="color: #ffffff"><b>REGISTER</b></h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label  class="col-form-label">Country:</label>
+                                                    <input type="text" class="form-control recipient-name">
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="mb-3">
+                                                            <label  class="col-form-label">Name:</label>
+                                                            <input type="text" class="form-control recipient-name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="mb-3">
+                                                            <label  class="col-form-label">Surname:</label>
+                                                            <input type="text" class="form-control recipient-name">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="col-form-label">Nickname:</label>
+                                                    <input type="password" class="form-control recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="col-form-label">Email:</label>
+                                                    <input type="password" class="form-control recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="col-form-label">Password:</label>
+                                                    <input type="password" class="form-control recipient-name">
+                                                </div>
+                                            </form>
+                                            <a href="#" class="modal-title" style="color:#ffffff; margin-top:25px">Terms of use</a>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #777777">Do you have an account?</button>
+                                            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">REGISTER</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <nav class="off__canvas">
+                <nav class="navbar navbar-light bg-orange fixed-right">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../azamatpage.html"><b>THE GAME</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="forum_bootstrap.html"><b>THE FORUM</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="wiki_bootstrap.html"><b>THE WIKI</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages_404.html">LOGIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages_404.html">REGISTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <img src="../images/anel_1.png" height="33">
+                                </li>
+                                <li class="nav-item">
+                                    <a href="patchnotes_page_ai.html" class="btn btn-outline-warning" role="button"><-Previous</a>
+                                    <a href="#" class="btn btn-outline-warning" role="button">Next-></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="intro"></div>
+<div class="container">
+    <div class="row features">
+        <div class="col-3 rectangle__top">
+            <div class="rectangle__inside"></div>
+            <div class="title_inside">
+                <h4 class="features__title">General</h4>
+            </div>
+        </div>
+        <div class="col-3 rectangle__top">
+            <div class="rectangle__inside"></div>
+            <div class="title_inside">
+                <h4 class="features__title">News</h4>
+            </div>
+        </div>
+        <div class="col-3 rectangle__top">
+            <div class="rectangle__inside"></div>
+            <div class="title_inside">
+                <h4 class="features__title">Story</h4>
+            </div>
+        </div>
+        <div class="col-3 rectangle__top">
+            <div class="rectangle__inside"></div>
+            <div class="title_inside">
+                <h4 class="features__title">Hacks</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row features">
+        <div class="col-3 rectangle__top">
+            <div class="rectangle__inside"></div>
+            <div class="title_inside">
+                <h4 class="features__title">Technical</h4>
+            </div>
+        </div>
+        <div class="col-3 rectangle__top">
+            <div class="title_inside_in_dev">
+                <h4 class="features__title">In Dev</h4>
+            </div>
+        </div>
+        <div class="col-3 rectangle__top">
+            <div class="title_inside_in_dev">
+                <h4 class="features__title">In Dev</h4>
+            </div>
+        </div>
+        <div class="col-3 rectangle__top">
+            <div class="title_inside_in_dev">
+                <h4 class="features__title">In Dev</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 topic_text">
+            <h2><b>Why wasn't I added to the game? I also go to uni((((</b></h2>
+        </div>
+    </div>
+    <div class="container_pop">
+        <div class="row">
+            <div class="col-xl-1 col-xs-12 " >
+                <img class="image-fluid"  src="../images/top8.jpg" height="70">
+            </div>
+            <div class="col-xl-11 col-xs-12">
+                <div class="rectangle">
+                    <div class="row  ">
+                        <div class="col-2 col-xs-6 ">
+                            <h5 style=" padding: 15px 20px;"><b>No Party</b></h5>
+                        </div>
+                        <div class="col-2 col-xs-0 popirat">
+                            <h6 style="padding: 18px 0; margin-left: 5px; color: #dcdcdc">Just Student</h6>
+                        </div>
+                        <div class="col-8 col-xs-6 popirat">
+                            <h6 style="padding: 18px 15px 18px 15px;margin-left:25px; text-align: right; color: #dcdcdc">09:14 PM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-11 col-sm-12">
+                <div class="rectangle" style="margin-top: 2px; height: auto;">
+                    <div class="container" style="padding: 25px 50px">
+                        <h5 style="padding-bottom: 25px">Sometimes, all you need to do is completely make an ass of yourself and laugh it off to realise that life isn’t so bad after all.
+                            The snow-covered path was no help in finding his way out of the back-country.
+                            This made him feel like an old-style rootbeer float smells.
+                            There were three sphered rocks congregating in a cubed room.
+                            Two seats were vacant.
+                            Please wait outside of the house.
+                            She had that tint of craziness in her soul that made her believe she could actually make a difference.
+                            He was willing to find the depths of the rabbit hole in order to be with her.
+                            The virus had powers none of us knew existed.
+                            Had he known what was going to happen, he would have never stepped into the shower.
+                            Toddlers feeding raccoons surprised even the seasoned park ranger.
+                            The ants enjoyed the barbecue more than the family.
+                            Traveling became almost extinct during the pandemic.
+                            Tomorrow will bring something new, so leave today as a memory.
+                            The gloves protect my feet from excess work.
+                            Martha came to the conclusion that shake weights are a great gift for any occasion.
+                            It was obvious she was hot, sweaty, and tired.
+                            She let the balloon float up into the air with her hopes and dreams.
+                            I often see the time 11:11 or 12:34 on clocks.
+                            The quick brown fox jumps over the lazy dog.
+                            They looked up at the sky and saw a million stars.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_pop">
+        <div class="row">
+            <div class="col-xl-1 col-xs-12 " >
+                <img class="image-fluid"  src="../images/top3.jpg" height="70">
+            </div>
+            <div class="col-xl-11 col-xs-12">
+                <div class="rectangle">
+                    <div class="row  ">
+                        <div class="col-2 col-xs-6 ">
+                            <h5 style=" padding: 15px 20px;"><b>Fropzz</b></h5>
+                        </div>
+                        <div class="col-2 col-xs-0 popirat">
+                            <h6 style="padding: 18px 0; margin-left: 5px; color: #dcdcdc">Just Student</h6>
+                        </div>
+                        <div class="col-8 col-xs-6 popirat">
+                            <h6 style="padding: 18px 15px 18px 15px;margin-left:25px; text-align: right; color: #dcdcdc">10:45 PM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-11 col-sm-12">
+                <div class="rectangle" style="margin-top: 2px; height: auto;">
+                    <div class="container" style="padding: 25px 50px">
+                        <h5 style="padding-bottom: 25px">I'm confused: when people ask me what's up, and I point, they groan.
+                            They wandered into a strange Tiki bar on the edge of the small beach town.
+                            When he asked her favorite number, she answered without hesitation that it was diamonds.
+                            Honestly, I didn't care much for the first season, so I didn't bother with the second.
+                            Instead of a bachelorette party
+                            She was too busy always talking about what she wanted to do to actually do any of it.
+                            The ants enjoyed the barbecue more than the family.
+                            Patricia found the meaning of life in a bowl of Cheerios.
+                            As the rental car rolled to a stop on the dark road, her fear increased by the moment.
+                            It caught him off guard that space smelled of seared steak.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_pop">
+        <div class="row">
+            <div class="col-xl-1 col-xs-12 " >
+                <img class="image-fluid"  src="../images/top4.jpg" height="70">
+            </div>
+            <div class="col-xl-11 col-xs-12">
+                <div class="rectangle">
+                    <div class="row  ">
+                        <div class="col-2 col-xs-6 ">
+                            <h5 style=" padding: 15px 20px;"><b>tvoysosed</b></h5>
+                        </div>
+                        <div class="col-2 col-xs-0 popirat">
+                            <h6 style="padding: 18px 0; margin-left: 5px; color: #dcdcdc">Just Student</h6>
+                        </div>
+                        <div class="col-8 col-xs-6 popirat">
+                            <h6 style="padding: 18px 15px 18px 15px;margin-left:25px; text-align: right; color: #dcdcdc">10:51 PM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-11 col-sm-12">
+                <div class="rectangle" style="margin-top: 2px; height: auto;">
+                    <div class="container" style="padding: 25px 50px">
+                        <h5 style="padding-bottom: 25px">Please tell me you don't work in a morgue.
+                            We need to rent a room for our party.
+                            There were a lot of paintings of monkeys waving bamboo sticks in the gallery.
+                            I'm a great listener, really good with empathy vs sympathy and all that, but I hate people.
+                            It's never comforting to know that your fate depends on something as unpredictable as the popping of corn.</h5>
+                        <img class="image-fluid" src="../images/pic6.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_pop">
+        <div class="row">
+            <div class="col-xl-1 col-xs-12 " >
+                <img class="image-fluid"  src="../images/agzam_admin.png" height="70">
+            </div>
+            <div class="col-xl-11 col-xs-12">
+                <div class="rectangle" style="background-color: rgba(243,0,21,0.42)">
+                    <div class="row  ">
+                        <div class="col-2 col-xs-6 ">
+                            <h5 style=" padding: 15px 20px;"><b>Agzam</b></h5>
+                        </div>
+                        <div class="col-2 col-xs-0 popirat">
+                            <h6 style="padding: 18px 0; margin-left: 5px; color: #dcdcdc">Just Admin</h6>
+                        </div>
+                        <div class="col-8 col-xs-6 popirat">
+                            <h6 style="padding: 18px 15px 18px 15px;margin-left:25px; text-align: right; color: #dcdcdc">12:59 PM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-11 col-sm-12">
+                <div class="rectangle" style="margin-top: 2px; height: auto; background-color: rgba(243,0,21,0.31)">
+                    <div class="container" style="padding: 25px 50px">
+                        <h5 style="padding-bottom: 25px">Don't put peanut butter on the dog's nose.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_pop">
+        <div class="row">
+            <div class="col-xl-1 col-xs-12 " >
+                <img class="image-fluid"  src="../images/top6.jpg" height="70">
+            </div>
+            <div class="col-xl-11 col-xs-12">
+                <div class="rectangle">
+                    <div class="row  ">
+                        <div class="col-2 col-xs-6 ">
+                            <h5 style=" padding: 15px 20px;"><b>damirkaa</b></h5>
+                        </div>
+                        <div class="col-2 col-xs-0 popirat">
+                            <h6 style="padding: 18px 0; margin-left: 5px; color: #dcdcdc">Just Student</h6>
+                        </div>
+                        <div class="col-8 col-xs-6 popirat">
+                            <h6 style="padding: 18px 15px 18px 15px;margin-left:25px; text-align: right; color: #dcdcdc">15:25 PM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-11 col-sm-12">
+                <div class="rectangle" style="margin-top: 2px; height: auto;">
+                    <div class="container" style="padding: 25px 50px">
+                        <h5 style="padding-bottom: 25px">They desperately needed another drummer since the current one only knew how to play bongos.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_pop">
+        <div class="row">
+            <div class="col-xl-1 col-xs-12 " >
+                <img class="image-fluid"  src="../images/top2.jpg" height="70">
+            </div>
+            <div class="col-xl-11 col-xs-12">
+                <div class="rectangle">
+                    <div class="row  ">
+                        <div class="col-2 col-xs-6 ">
+                            <h5 style=" padding: 15px 20px;"><b>lamberson</b></h5>
+                        </div>
+                        <div class="col-2 col-xs-0 popirat">
+                            <h6 style="padding: 18px 0; margin-left: 5px; color: #dcdcdc">Just Student</h6>
+                        </div>
+                        <div class="col-8 col-xs-6 popirat">
+                            <h6 style="padding: 18px 15px 18px 15px;margin-left:25px; text-align: right; color: #dcdcdc">15:26 PM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-11 col-sm-12">
+                <div class="rectangle" style="margin-top: 2px; height: auto;">
+                    <div class="container" style="padding: 25px 50px">
+                        <h5 style="padding-bottom: 25px">I'm not a party animal, but I do like animal parties.
+                            She was too short to see over the fence.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="icon_bottom_text1">
+    <div class="container">
+        <div class="row container_footer">
+            <div class="col-xl-10 col-sm-12 justify-content-center">
+                <h3 class="text1__1">For contact:</h3>
+                <h3 class="text1__2">insideaitu@gmail.com</h3>
+            </div>
+            <div class="col-xl-2 justify-content-end col-sm-12 justify-content-center  bottom_logo">
+                <img class="bottom_logo_size" src="../images/logo.png">
+            </div>
+        </div>
+        <div class="row social_media">
+            <div class="col-xl-auto col-sm-12 justify-content-center text_bottom2">
+                <p>Where to find us</p>
+            </div>
+            <div class="col-auto container__photo">
+                <a href="https://t.me/+lYbr7KEq0ghjMDVi"> <img class="container__picture__logo" src="../images/telegram-icon.png"  alt=""> </a>
+            </div>
+            <div class="col-auto container__photo">
+                <a href="https://discord.gg/3EkHUug8">  <img class="container__picture__logo" src="../images/discord_icon.png" alt="" height="30"> </a>
+            </div>
+            <div class="col-auto container__photo">
+                <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img class="container__picture__logo" src="../images/youtube-logo.png" alt="" height="30"> </a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 last_bottom_text">
+                <p>some inscription about rights, etc.some inscription about rights, etc.some inscription about rights, etc.some inscription about rights,<br>
+                    etc.some inscription about rights, etc.some inscription about rights, etc.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

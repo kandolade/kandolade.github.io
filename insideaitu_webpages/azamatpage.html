@@ -3,10 +3,9 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="images/logo.png">
         <link rel="stylesheet" href="css/Inside%20AITU.css">
-
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
         <link href="https://api.fontshare.com/css?f[]=clash-display@700&display=swap" rel="stylesheet">
         <title>Inside AITU</title>
@@ -20,9 +19,9 @@
                 </div>
                 <div class="header__inner">
                     <nav class="nav">
-                        <a class= "nav__link" href="index.html">THE GAME</a>
-                        <a class= "nav__link" href="html/theforum.html">THE FORUM</a>
-                        <a class= "nav__link" href="html/thewiki.html">THE WIKI</a>
+                        <a class= "nav__link" href="#">THE GAME</a>
+                        <a class= "nav__link" href="html/forum_bootstrap.html">THE FORUM</a>
+                        <a class= "nav__link" href="html/wiki_bootstrap.html">THE WIKI</a>
                     </nav>
                 </div>
                 <div class="telegram__logo">
@@ -35,13 +34,12 @@
                     <img src="images/inside__logo.png" alt="it's game logo" width=100%>
                 </div>
                 <div class="play__button">
-                    <a class="picture_play" href="html/Inside%20AITU.html"><img src="images/play__now.png" alt="it's play button" width="250px"></a>
+                    <a href="#"><img src="images/play__now.png" alt="it's play button" width="250px"></a>
                 </div>
         </div>
         <section class="first__section">
-
             <div class="orange__container">
-                <img src="images/aitu-logo-white-2-300x154%201.png" alt="it's aitu logo" width="190px" height="95px">
+                <img src="images/aitu-logo-white-2-300x154%201.png" alt="it's aitu logo" width="200px" height="95px">
                 <img src="images/web__logo.png" alt="it's logo" width="250px" height="100px">
             </div>
             <div class="section__container">
@@ -70,15 +68,15 @@
         </section>
         <section class="section2">
             <div class="video">
-                <iframe width="1300" height="600" src="https://www.youtube.com/embed/rglXVJSa4v4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/rglXVJSa4v4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
     <section class="section3">
-
         <div class="section3__main">
             <div class="section3__logo__text">
                 INSIDEAITU
             </div>
+
             <div class="section3__logo__img">
                 <div class="section3__logo__img__text">
                     talks
@@ -88,6 +86,8 @@
             <div class="talks__down__main__container">
 
             </div>
+        </div>
+        <div class="section3__secondary">
             <a href="https://www.instagram.com/p/CXQ6jeUsq6-/" class="blue__talks__container">
                 <div class="talks__top__text">
                     <div class="line">
@@ -105,7 +105,7 @@
                 </div>
             </a>
             <div class="talks__main__container">
-                <a href="html/patchnotes.html" class="talks__def__containers">
+                <a href="html/patchnotes_page_winter.html" class="talks__def__containers">
                     <div class="talks__top__text">
                         <div class="line">
                             <hr align="left" width="80" color=black size="6">
@@ -119,7 +119,7 @@
                         Winter&nbsp;&nbsp;PatchNotes
                     </div>
                 </a>
-                <a href="html/patchnotes_AI.html" class="talks__def__containers">
+                <a href="html/patchnotes_page_ai.html" class="talks__def__containers">
                     <div class="talks__top__text">
                         <div class="line">
                             <hr align="left" width="80" color=black size="6">
@@ -134,17 +134,20 @@
                         PatchNotes
                     </div>
                 </a>
-                <a href="html/patchnotes_concert.html" class="talks__def__containers__down">
+            </div>
+            <div class="talks__main__container">
+                <a href="html/patchnotes_page_concert.html" class="talks__def__containers__down">
                     <div class="talks__top__text">
                         <div class="line">
                             <hr align="left" width="80" color=black size="6">
+
                         </div>
                         <div class="text">
                             More...
                         </div>
                     </div>
                     <div class="talks__center__text">
-                        Secret guest party
+                        Secret Concert Event
                     </div>
                 </a>
                 <div class="talks__def__containers__down">
@@ -163,23 +166,35 @@
         </div>
     </section>
     <section class="section4">
-        <div class="container">
         <div class="section4__main">
             <div class="section4__main__text">
                 Gallery
             </div>
             <div class="section4__main__img">
-                <div class="section4__lev__strelka">
-                    <img src="images/strelkalev.png" alt="" width="100">
-                </div>
                 <div class="section4__main__back">
-                    <img class="screenshot" src="images/screen.png" alt="" width="860">
-                </div>
-                <div class="section4__prav__strelka">
-                    <img src="images/strelkaprav.png" alt="" width="100">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/main__background.png" width="1080" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/section4__img.png" width="1080" alt="Second slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="sr-only"><img class="img-fluid" src="images/strelkalev.png" alt="" width="100"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="sr-only"><img class="img-fluid" src="images/strelkaprav.png" alt="" width="100"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
         <footer class="bottom_container">
@@ -207,7 +222,7 @@
                     <a href="https://discord.gg/3EkHUug8">  <img src="images/discord_icon.png" alt="" height="30">   </a>      </div>
 
                 <div class="container__photo">
-                    <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img src="images/youtube-logo.png" alt="" height="30">    </a>     </div>
+                    <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img src="../untitled/IMG/youtube-logo.png" alt="" height="30">    </a>     </div>
 
                 <div class="container__photo">
                     <a href="https://www.instagram.com/bo_olean/"><img src="images/instagram_icon.png" alt="" height="30">   </a>      </div>
@@ -215,11 +230,13 @@
             </div>
 
             <div class="last_bottom_text">
-                <h1>some inscription about rights, etc.some inscription about rights, etc.some inscription about rights, etc.some inscription about rights,<br>
-                    etc.some inscription about rights, etc.some inscription about rights, etc.</h1>
+                <h1>some inscription about rights, etc.some , etc.some inscription about rights, etc.some inscription about rights,<br>
+                    etc.some inscription about rights.</h1>
             </div>
         </footer>
-
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 
 </html>

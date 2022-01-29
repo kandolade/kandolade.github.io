@@ -2,7 +2,6 @@ body
 {
     margin: 0;
     background-color: black;
-
 }
 *,*:after,*:before
 {
@@ -38,20 +37,18 @@ body
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    justify-content: flex-end;
+    justify-content: right;
+    transition: color linear .2s;
 }
-.picture_play{
-    opacity: 1;
-    cursor: pointer;
-}
-.picture_play:hover{
-    opacity: 0.7;
+.play__button:hover
+{
+    opacity: 0.6;
 }
 .container
 {
     width: 100%;
-    max-width: 1350px;
-    padding: 0px 50px;
+    max-width: 1300px;
+    padding-top: 40px;
     margin: 0 auto;
     justify-content: space-between;
     display: flex;
@@ -82,8 +79,25 @@ body
     margin: 0;
     align-items: center;
     display: flex;
+    transition: color linear .2s;
 }
+.telegram__logo:hover
+{
+    opacity: 0.6;
+}
+.talks__def__containers:hover
+{
+    opacity: 0.6;
+    text-decoration: none;
+    color: black;
 
+
+}
+.talks__def_containers:visited{
+    text-decoration: none;
+    color: black;
+
+}
 .nav
 {
     font-size: 16px;
@@ -111,8 +125,8 @@ body
 {
     width: 100%;
     max-width: 1920px;
-    max-height: 1080px;
-    height: 820px;
+    max-height: 770px;
+    height: 100vh;
     background-color: #f9a825;
     background-size: auto;
     display: flex;
@@ -148,7 +162,7 @@ body
     font-size: 45px;
     line-height: 60px;
     color: #FFFFFF;
-    text-shadow: 4px 2px black;
+    text-shadow: 3px 3px 3px black;
 
 }
 .img__container
@@ -197,8 +211,8 @@ body
 {
     width: 100%;
     max-width: 1920px;
-    max-height: 1080px;
-    height: 850px;
+    max-height: 770px;
+    height: 100vh;
     background-color: black;
     background-size: auto;
     display: flex;
@@ -224,7 +238,6 @@ body
     flex-direction: column;
     margin: 0 auto;
 
-
 }
 .section3__main
 {
@@ -234,7 +247,14 @@ body
     margin: 0 auto;
     justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
+}
+.section3__secondary
+{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
 }
 .section3__logo__text
 {
@@ -275,13 +295,12 @@ body
     width: 100%;
     height: 400px;
     background-color:#24C5F9;
-    color: black;
-    margin-top: 40px;
-    margin-right: 40px;
+    margin-top: 60px;
+    margin-right:40px;
     justify-content: center;
     transition:color .2s linear;
-    cursor: pointer;
     text-decoration: none;
+color: black;
 }
 .blue__talks__container:hover
 {
@@ -301,14 +320,10 @@ body
     max-width: 720px;
     width: 100%;
     height: 400px;
-    color: black;
-
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     padding-top: 40px;
-    text-decoration: none;
-
 }
 .talks__def__containers
 {
@@ -316,29 +331,18 @@ body
     width: 100%;
     height: 190px;
     background-color: #D3DFE3;
-    color: black;
-
-    margin-right: 40px;
     justify-content: center;
     transition:color .2s linear;
-    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 40px;
     text-decoration: none;
-
-
+color: black;
 }
 .talks__def__containers:hover
 {
     opacity: 0.6;
-    text-decoration: none;
-    color: black;
-
-
 }
-.talks__def_containers:visited{
-    text-decoration: none;
-    color: black;
 
-}
 .talks__def__containers__down
 {
     max-width: 320px;
@@ -346,48 +350,46 @@ body
     height: 190px;
     background-color: #D3DFE3;
     margin-top: 20px;
-    color: black;
-
-    margin-right: 40px;
     justify-content: center;
     transition:color .2s linear;
-    cursor: pointer;
+    color: black;
     text-decoration: none;
 }
 .talks__def__containers__down:hover
 {
     opacity: 0.6;
-    text-decoration: none;
     color: black;
-
-}
-.talks__def__containers__down:visited{
     text-decoration: none;
-    color: black;
-
 }
 .talks__top__text
 {
     max-width: 290px;
     font-family: 'Clash Display', sans-serif;
     font-size: 16px;
-    margin: 20px auto;
+    margin: 20px 20px;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    text-decoration: none;
-    color: black;
 }
 .talks__center__text
 {
     max-width: 290px;
     font-family: 'Clash Display', sans-serif;
     font-size: 22px;
-    margin:20px auto;
-    text-decoration: none;
-
+    margin:20px 20px;
 }
 .section4
+{
+    width: 100%;
+    max-width: 1920px;
+    background-color: #323336;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 1000px;
+    background-size: auto;
+}
+.section5
 {
     width: 100%;
     max-width: 1920px;
@@ -413,8 +415,7 @@ body
     font-family: 'Clash Display', sans-serif;
     color: #F9A825;
     font-size: 85px;
-    text-shadow:-4px 0px yellow, 4px 5px black;
-
+    text-shadow: 2px 2px black;
     margin: 55px 0;
 }
 .section4__main__img
@@ -429,16 +430,10 @@ body
     max-width: 100px;
     width: 100%;
     margin: 200px 0;
-    opacity: 1;
-    transition: color .1s linear;
-    cursor: pointer;
-}
-.section4__lev__strelka:hover{
-    opacity: 0.8;
 }
 .section4__main__back
 {
-    max-width: 860px;
+    max-width: 1080px;
     width: 100%;
     margin:0 10px ;
 }
@@ -447,12 +442,6 @@ body
     max-width: 100px;
     width: 100%;
     margin: 200px 0;
-    opacity: 1;
-    transition: color .1s linear;
-    cursor: pointer;
-}
-.section4__prav__strelka:hover{
-    opacity: 0.8;
 }
 .bottom_container{
     display: flex;
@@ -539,8 +528,4 @@ body
 .container__photo
 {
     margin: 10px 15px;
-}
-
-.screenshot{
-    border: 7px solid #000000;
 }
