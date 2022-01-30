@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a03cc28-c2b8-4f2b-a919-2f524afc2fe9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insideaitu_webpages/css/Inside AITU.css" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/css/Inside AITU.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insideaitu_webpages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insideaitu_webpages/css/playgame_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/css/playgame_bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insideaitu_webpages/html/playgame_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/html/playgame_bootstrap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643476231078</updated>
       <workItem from="1643476232736" duration="409000" />
-      <workItem from="1643489095182" duration="6356000" />
+      <workItem from="1643489095182" duration="7268000" />
     </task>
     <servers />
   </component>
