@@ -24,17 +24,6 @@ body
     margin: 0 auto;
 
 }
-.content_img{
-    background-image: url("../images/backzindex1.svg");
-    background-repeat: repeat;
-    position: fixed;
-    background-size: 4px 4px;
-    width: 100%;
-    height: 100%;
-    opacity: 15%;
-    z-index: 1;
-    pointer-events: none;
-}
 .intro__title
 {
     max-width: 1200px;
@@ -45,20 +34,24 @@ body
 .play__button
 {
     display: flex;
-    max-width: 1250px;
+    max-width: 1260px;
     width: 100%;
     margin: 0 auto;
     justify-content: right;
-    transition: color linear .2s;
 }
-.play__button:hover
+.playb
+{
+    transition: color linear .2s;
+    opacity: 1;
+}
+.playb:hover
 {
     opacity: 0.6;
 }
-.container
+.my_container
 {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1300px;
     padding-top: 40px;
     margin: 0 auto;
     justify-content: space-between;
@@ -96,19 +89,6 @@ body
 {
     opacity: 0.6;
 }
-.talks__def__containers:hover
-{
-    opacity: 0.6;
-    text-decoration: none;
-    color: black;
-
-
-}
-.talks__def_containers:visited{
-    text-decoration: none;
-    color: black;
-
-}
 .nav
 {
     font-size: 16px;
@@ -116,7 +96,7 @@ body
     color: #f9a825;
     justify-content: center;
 }
-.nav__link
+.nav-link
 {
     text-decoration: none;
     font-family: 'Satoshi', sans-serif;
@@ -127,10 +107,18 @@ body
     margin: 15px;
 
 }
-.nav__link:hover
+.nav-item
+{
+    padding-top: 20px;
+}
+.nav-link:hover
 {
     color: #FFFFFF;
     opacity: 1;
+}
+.nav-link:focus
+{
+    color: #FFFFFF;
 }
 .first__section
 {
@@ -179,11 +167,12 @@ body
 .img__container
 {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .flash__container
 {
@@ -253,7 +242,7 @@ body
 .section3__main
 {
     padding-top: 50px;
-    max-width: 1100px;
+    max-width: 1080px;
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
@@ -261,7 +250,7 @@ body
 }
 .section3__secondary
 {
-    max-width: 1100px;
+    max-width: 1080px;
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
@@ -277,6 +266,7 @@ body
     padding-top: 50px;
     display: flex;
 }
+
 .section3__logo__img
 {
     margin: 40px auto 0;
@@ -302,33 +292,21 @@ body
 
 .blue__talks__container
 {
-    max-width: 320px;
     width: 100%;
     height: 400px;
     background-color:#24C5F9;
     margin-top: 60px;
-    margin-right:40px;
+    padding-top: 1px;
     justify-content: center;
     transition:color .2s linear;
-    text-decoration: none;
-color: black;
 }
 .blue__talks__container:hover
 {
     opacity: 0.6;
-    text-decoration: none;
-    color: black;
-
-}
-.blue__talks__container:visited{
-    text-decoration: none;
-    color: black;
-
 }
 
 .talks__main__container
 {
-    max-width: 720px;
     width: 100%;
     height: 400px;
     justify-content: space-between;
@@ -338,16 +316,13 @@ color: black;
 }
 .talks__def__containers
 {
-    max-width: 320px;
     width: 100%;
     height: 190px;
     background-color: #D3DFE3;
     justify-content: center;
     transition:color .2s linear;
     margin-top: 20px;
-    margin-right: 40px;
-    text-decoration: none;
-color: black;
+
 }
 .talks__def__containers:hover
 {
@@ -363,14 +338,11 @@ color: black;
     margin-top: 20px;
     justify-content: center;
     transition:color .2s linear;
-    color: black;
-    text-decoration: none;
+
 }
 .talks__def__containers__down:hover
 {
     opacity: 0.6;
-    color: black;
-    text-decoration: none;
 }
 .talks__top__text
 {
@@ -414,7 +386,7 @@ color: black;
 .section4__main
 {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1080px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -422,16 +394,16 @@ color: black;
 .section4__main__text
 {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1080px;
     font-family: 'Clash Display', sans-serif;
     color: #F9A825;
     font-size: 85px;
+    text-shadow: 2px 2px black;
     margin: 55px 0;
-    text-shadow:-4px 0px yellow, 4px 5px black;
 }
 .section4__main__img
 {
-    max-width: 1100px;
+    max-width: 1080px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -444,7 +416,7 @@ color: black;
 }
 .section4__main__back
 {
-    max-width: 1100px;
+    max-width: 1080px;
     width: 100%;
     margin:0 10px ;
 }

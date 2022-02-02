@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a03cc28-c2b8-4f2b-a919-2f524afc2fe9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/insideaitu_webpages/css/playgame_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/css/playgame_bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insideaitu_webpages/css/forum_bootstrap_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/css/forum_bootstrap_css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insideaitu_webpages/html/playgame_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/insideaitu_webpages/html/playgame_bootstrap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -43,7 +51,9 @@
       <option name="presentableId" value="Default" />
       <updated>1643476231078</updated>
       <workItem from="1643476232736" duration="409000" />
-      <workItem from="1643489095182" duration="7268000" />
+      <workItem from="1643489095182" duration="7285000" />
+      <workItem from="1643543535028" duration="2110000" />
+      <workItem from="1643567655671" duration="3476000" />
     </task>
     <servers />
   </component>

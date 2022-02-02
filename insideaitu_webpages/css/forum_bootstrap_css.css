@@ -353,7 +353,6 @@ justify-content: flex-end;
 }
 @media only screen and (max-width: 553px) {
     .intro {height: 210px;}
-    .intro {height: 130px;}
     .nav_link {display: none;}
     .text1__1 {display: none;}
     .text1__2 {display: none;}

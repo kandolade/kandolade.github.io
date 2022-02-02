@@ -3,70 +3,83 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/Inside%20AITU.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
         <link href="https://api.fontshare.com/css?f[]=clash-display@700&display=swap" rel="stylesheet">
-        <title>Inside AITU</title>
-        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/Inside%20AITU.css">
 
+        <title>Inside AITU</title>
     </head>
 
     <body>
-    <div class="content_img"></div>
-
-    <header class="header">
-            <div class="container">
+        <header class="header">
+            <div class="my_container">
                 <div class="header__logo">
-                    <img src="images/logo.png" alt="it's logo" width = "100px">
+                    <img class="img-fluid" src="images/logo.png" alt="it's logo" width = "100px">
                 </div>
-                <div class="header__inner">
-                    <nav class="nav">
-                        <a class= "nav__link" href="#">THE GAME</a>
-                        <a class= "nav__link" href="html/forum_bootstrap.html">THE FORUM</a>
-                        <a class= "nav__link" href="html/wiki_bootstrap.html">THE WIKI</a>
-                    </nav>
-                </div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THE GAME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THE FORUM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THE WIKI</a>
+                    </li>
+                </ul>
                 <div class="telegram__logo">
-                    <a href="https://t.me/joinchat/F0QHyE0gUNEXqgqxEwfWqw"><img src="images/telegram__logo.png" alt="it's telegram logo" width="70px"></a>
+                    <a href="#"><img class="img-fluid" src="images/telegram__logo.png" alt="it's telegram logo" width="70px"></a>
                 </div>
             </div>
         </header>
         <div class="intro">
                 <div class="intro__title">
-                    <img src="images/inside__logo.png" alt="it's game logo" width=100%>
+                    <img class="img-fluid" src="images/inside__logo.png" alt="it's game logo" width=100%>
                 </div>
                 <div class="play__button">
-                    <a href="html/playgame_bootstrap.html"><img src="images/play__now.png" alt="it's play button" width="250px"></a>
+                    <div class="playb">
+                        <a href="#"><img class="img-fluid" src="images/play__now.png" alt="it's play button" width="250px"></a>
+                    </div>
                 </div>
         </div>
         <section class="first__section">
             <div class="orange__container">
-                <img src="images/aitu-logo-white-2-300x154%201.png" alt="it's aitu logo" width="200px" height="95px">
-                <img src="images/web__logo.png" alt="it's logo" width="250px" height="100px">
+                <img class="img-fluid" src="images/aitu-logo-white-2-300x154%201.png" alt="it's aitu logo" width="200px" height="95px">
+                <img class="img-fluid" src="images/web__logo.png" alt="it's logo" width="250px" height="100px">
             </div>
             <div class="section__container">
-                <div class="text__container">
-                    #INSIDE &#60AITU&#62 - a <br> game-project from the students of Astana IT University to explore <br> the university and
-                    <br> the study of programming
-                </div>
-                <div class="img__container">
-                    <img src="images/aibol.png" alt="it's aibol" width="250" height="270">
-                    <div class="flash__container">
-                        <img src="images/flesh%20energy.png" alt="it's flesh energy" width="200" height="220">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text__container">
+                                #INSIDE &#60AITU&#62 - a <br> game-project from the students of Astana IT University to explore <br> the university and
+                                <br> the study of programming
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img__container">
+                                <img src="images/aibol.png" alt="it's aibol" width="250" height="270">
+                                <div class="flash__container">
+                                    <img src="images/flesh%20energy.png" alt="it's flesh energy" width="200" height="220">
+                                </div>
+                                <div class="container2">
+                                    #INSIDE &#60AITU&#62 is to help future students
+                                    of Astana IT University to learn the field
+                                    of programming. The game provides you
+                                    with a complete uni building for future orientation,
+                                    various tasks from the contest, as well as many
+                                    interesting conversations with the students of
+                                    the uni. The game is a project for the university
+                                    and release dates are unknown.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="container2">
-                        #INSIDE &#60AITU&#62 is to help future students
-                        of Astana IT University to learn the field
-                        of programming. The game provides you
-                        with a complete uni building for future orientation,
-                        various tasks from the contest, as well as many
-                        interesting conversations with the students of
-                        the uni. The game is a project for the university
-                        and release dates are unknown.
-                    </div>
                 </div>
+
             </div>
 
         </section>
@@ -77,95 +90,105 @@
         </section>
     <section class="section3">
         <div class="section3__main">
-            <div class="section3__logo__text">
-                INSIDEAITU
-            </div>
-
-            <div class="section3__logo__img">
-                <div class="section3__logo__img__text">
-                    talks
+            <div class="container-fluid">
+                <div class="section3__logo__text">
+                    INSIDEAITU
                 </div>
             </div>
 
-            <div class="talks__down__main__container">
-
+            <div class="container-fluid">
+                <div class="section3__logo__img">
+                    <div class="section3__logo__img__text">
+                        talks
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section3__secondary">
-            <a href="https://www.instagram.com/p/CXQ6jeUsq6-/" class="blue__talks__container">
-                <div class="talks__top__text">
-                    <div class="line">
-                        <hr align="left" width="80" color=black size="6">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="blue__talks__container">
+                            <div class="talks__top__text">
+                                <div class="line">
+                                    <hr align="left" width="80" color=black size="6">
 
+                                </div>
+                                <div class="text">
+                                    More...
+                                </div>
+                            </div>
+                            <div class="talks__center__text">
+                                Winners of Game Fair
+                                at
+                                ASTANA IT UNIVERSITY
+                            </div>
+                        </div>
                     </div>
-                    <div class="text">
-                        More...
+                    <div class="col">
+                        <div class="talks__main__container">
+                            <div class="talks__def__containers">
+                                <div class="talks__top__text">
+                                    <div class="line">
+                                        <hr align="left" width="80" color=black size="6">
+
+                                    </div>
+                                    <div class="text">
+                                        More...
+                                    </div>
+                                </div>
+                                <div class="talks__center__text">
+                                    Winter&nbsp;&nbsp;PatchNotes
+                                </div>
+                            </div>
+                            <div class="talks__def__containers">
+                                <div class="talks__top__text">
+                                    <div class="line">
+                                        <hr align="left" width="80" color=black size="6">
+
+                                    </div>
+                                    <div class="text">
+                                        More...
+                                    </div>
+                                </div>
+                                <div class="talks__center__text">
+                                    AzamatAI&nbsp;&nbsp;bugs
+                                    PatchNotes
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="talks__main__container">
+                            <div class="talks__def__containers__down">
+                                <div class="talks__top__text">
+                                    <div class="line">
+                                        <hr align="left" width="80" color=black size="6">
+
+                                    </div>
+                                    <div class="text">
+                                        More...
+                                    </div>
+                                </div>
+                                <div class="talks__center__text">
+                                    Azamat`s&nbsp;&nbsp;buhalovka
+                                    story
+                                </div>
+                            </div>
+                            <div class="talks__def__containers__down">
+                                <div class="talks__top__text">
+                                    <div class="line">
+                                        <hr align="left" width="80" color=black size="6">
+
+                                    </div>
+                                    <div class="text">
+                                        More...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="talks__center__text">
-                    Winners of Game Fair
-                    at
-                    ASTANA IT UNIVERSITY
-                </div>
-            </a>
-            <div class="talks__main__container">
-                <a href="html/patchnotes_page_winter.html" class="talks__def__containers">
-                    <div class="talks__top__text">
-                        <div class="line">
-                            <hr align="left" width="80" color=black size="6">
-
-                        </div>
-                        <div class="text">
-                            More...
-                        </div>
-                    </div>
-                    <div class="talks__center__text">
-                        Winter&nbsp;&nbsp;PatchNotes
-                    </div>
-                </a>
-                <a href="html/patchnotes_page_ai.html" class="talks__def__containers">
-                    <div class="talks__top__text">
-                        <div class="line">
-                            <hr align="left" width="80" color=black size="6">
-
-                        </div>
-                        <div class="text">
-                            More...
-                        </div>
-                    </div>
-                    <div class="talks__center__text">
-                        AzamatAI&nbsp;&nbsp;bugs
-                        PatchNotes
-                    </div>
-                </a>
-            </div>
-            <div class="talks__main__container">
-                <a href="html/patchnotes_page_concert.html" class="talks__def__containers__down">
-                    <div class="talks__top__text">
-                        <div class="line">
-                            <hr align="left" width="80" color=black size="6">
-
-                        </div>
-                        <div class="text">
-                            More...
-                        </div>
-                    </div>
-                    <div class="talks__center__text">
-                        Secret Concert Event
-                    </div>
-                </a>
-                <div class="talks__def__containers__down">
-                    <div class="talks__top__text">
-                        <div class="line">
-                            <hr align="left" width="80" color=black size="6">
-
-                        </div>
-                        <div class="text">
-                            More...
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -173,6 +196,7 @@
         <div class="section4__main">
             <div class="section4__main__text">
                 Gallery
+
             </div>
             <div class="section4__main__img">
                 <div class="section4__main__back">
@@ -189,20 +213,7 @@
                             <div class="carousel-item">
                                 <img class="d-block w-100" src="images/section4__img.png" width="1080" alt="Second slide">
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/pic1.png" width="1080">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/pic2.png" width="1080">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/pic5.png" width="1080">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/pix4.png" width="1080">
-                            </div>
                         </div>
-
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             <span class="sr-only"><img class="img-fluid" src="images/strelkalev.png" alt="" width="100"></span>
                         </a>
@@ -239,7 +250,7 @@
                     <a href="https://discord.gg/3EkHUug8">  <img src="images/discord_icon.png" alt="" height="30">   </a>      </div>
 
                 <div class="container__photo">
-                    <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img src="../untitled/IMG/youtube-logo.png" alt="" height="30">    </a>     </div>
+                    <a href="https://www.youtube.com/watch?v=mgxDyrEnnoE&ab_channel=WarnerBros.JapanAnime">   <img src="images/youtube-logo.png" alt="" height="30">    </a>     </div>
 
                 <div class="container__photo">
                     <a href="https://www.instagram.com/bo_olean/"><img src="images/instagram_icon.png" alt="" height="30">   </a>      </div>
