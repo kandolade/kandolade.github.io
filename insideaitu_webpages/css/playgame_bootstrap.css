@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     background: #F9A825;
@@ -10,17 +9,13 @@ body{
 
 .navbar .navbar-nav{
     color: white;
-    font-family: Satoshi;
 }
 .select_version{
     font-family: 'Clash Display', sans-serif;
     border-bottom: 7px solid black;
     border-top: 7px solid black;
 }
-.background_section{
-    height: 100%;
-    background: #24C5F9;
-}
+
 .background{
     background-color: #F9A825;
     display: flex;
@@ -34,8 +29,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+.scale{
+    transition: .2s;
+}
+.scale:hover{
+    transform: scale(1.1);
+}
+
+
 .section_bottom_text{
     font-family: 'Satoshi', sans-serif;
     text-align: center;
@@ -43,27 +46,91 @@ body{
 .polki_section_bottom{
     display: flex;
     align-items: end;
+    background: url("../images/polki12 2 (1).png") no-repeat center;
+    width: 100%;
 }
+.polki{
+    max-width: 100% ;
+    max-height: 95%;
+}
+
+.sprite-container {
+    height: 32px;
+    display: none;
+    align-items: center;
+}
+.sprite-container_hide{
+    display: initial;
+}
+
+.sprite-image {
+    height: 160px;
+    width: 160px;
+    background: url("../images/walkvlevo1.png") 0 0;
+    animation: play 1s steps(2) infinite,
+    step 8s linear forwards;
+    position:relative;
+    bottom: 30px;
+    left: 0;
+    z-index: 2;
+
+}
+.content_img{
+    background-image: url("../images/backzindex1.svg");
+    background-repeat: repeat;
+    position: fixed;
+    background-size: 4px 4px;
+    width: 100%;
+    height: 100%;
+    opacity: 15%;
+    z-index:1000;
+    pointer-events: none;
+}
+@keyframes play {
+    100% {
+        background-position: 320px;
+    }
+}
+
+@keyframes step {
+    100% {
+        left: 100%;
+    }
+}
+
 .navbar .navbar-nav .nav-item .nav-link{
     color: white;
     font-family: 'Satoshi', sans-serif;
     transition: color .2s;
+    text-transform: uppercase;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover{
     color: #F9A825;
 }
+.img{
+    margin: 0 auto;
+    display: flex;
+    height: 700px;
+    max-width: 1920px;
+    max-height: 770px;
+    justify-content: center;
+    align-content: center;
+    opacity: 0;
+}
+
 
 .left-container{
-    background: url("../images/Без имени-29-восстановлено 2.png") no-repeat center;
+    background: url("../images/zad_fon2.png") no-repeat center;
     background-size: cover;
-    width: 100%;
+    width: auto;
+    height: 770px;
     max-width: 1920px;
-    height: 742px;
+    max-height: 770px;
 
 }
 .background-section2{
     background-color: #121212;
-    height: 700px;
+    height: 90vh;
 }
 .system-requirements{
     font-family: 'Clash Display', sans-serif;
@@ -102,8 +169,7 @@ body{
     align-items: center;
 }
 .container_footer {
-    font-family: 'Clash Display', sans-serif;
-    color: white;
+    font-family: "Clash Display Variable";
     font-weight: 700;
     display: flex;
     justify-content: space-between;
@@ -125,6 +191,7 @@ body{
 .bottom_logo_size{
     width: 150px;
     height: 150px;
+    cursor: pointer;
 }
 .social_media{
     display: flex;
@@ -157,21 +224,23 @@ body{
 .container__picture__logo{
     height: 30px;
 }
-.content_img{
-    background-image: url("../images/backzindex1.svg");
-    background-repeat: repeat;
-    position: fixed;
-    background-size: 4px 4px;
-    width: 100%;
-    height: 100%;
-    opacity: 15%;
-    z-index: 1;
-    pointer-events: none;
-}
 @media only screen and (max-width: 553px) {
     .text1__1, .text1__2 {display: none;}
-    .left-container{height: 400px;}
-}
+        .intro {height: 210px;}
+        .nav_link {display: none;}
+        .text1__1 {display: none;}
+        .text1__2 {display: none;}
+        .features {display: none;}
+        .nav_login {display: none;}
+        .topic__time{font-size: 10px;}
+        #nav_link_left {display: none;}
+        .off__canvas {display: initial;}
+        #nav_login_right {display: none;}
+        .topic__problem{font-size: 16px;}
+        .rectangle___down{margin-top: 10px;}
+        .container__picture__pop{height: 40px;margin-left: 20px;}
+    }
+
 
 
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,55 +9,61 @@
     <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/playgame_bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>Inside AITU</title>
+
 </head>
-<body>
+<body onload="onload()">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <div class="content_img"></div>
-
 <section>
-    <div class="container-fluid">
-        <div class="row">
+   <div class="container-fluid">
+       <div class="row">
 
-            <div class=" col-lg-6 col-md-12 left-container ">
+           <div class=" col-lg-6 col-md-12 left-container">
+               <nav class="navbar navbar-expand-sm navbar-dark justify-content-center pt-5 px-0">
+                   <ul class="navbar-nav">
+                       <li class="nav-item">
+                           <a class="nav-link" href="../index.html">The Game</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="forum_bootstrap.html">The Forum</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="wiki_bootstrap.html">The Wiki</a>
+                       </li>
+                   </ul>
+               </nav>
 
-                <nav class="navbar navbar-expand-sm navbar-dark justify-content-center pt-5">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">THE GAME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="forum_bootstrap.html">THE FORUM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="wiki_bootstrap.html">THE WIKI</a>
-                        </li>
-                    </ul>
-                </nav>
+               <div class="img" id="image">
+                   <img class="img-fluid" src="../images/aybol1.png" height="1080" width="1063" style="display: flex">
+               </div>
+           </div>
 
-            </div>
-
-            <div class="col-lg-6 col-md-12 mx-auto background text-black">
+           <div class="col-lg-6 col-md-12 mx-auto px-0 background text-black">
                 <div class="container">
                     <div class="row col-lg-10 offset-1 pt-5">
                         <h1 class="select_version display-4 text-center">SELECT VERSION</h1>
-                    </div>
+                </div>
 
-                    <div class="section_ms_ios mx-0">
-                        <div class="row ">
-                            <a href="https://disk.yandex.kz/d/WRKtAtiXBoa4Rg" class="offset-1 col-5 pt-4">
-                                <img class="img-fluid " src="../images/pngwing%203.png" alt="">
-                            </a>
+                <div class="section_ms_ios mx-0">
+                    <div class="row ">
+                        <div class="offset-1 col-5 pt-4">
+                            <img id="scale1" class="img-fluid scale" src="../images/pngwing%203.png" alt="">
+                        </div>
 
-                            <div class="col-1">
-                                <img  class="img-fluid" src="../images/Line%2014.png" alt="">
-                            </div>
+                        <div class="col-1">
+                            <img  class="img-fluid" src="../images/Line%2014.png" alt="">
+                        </div>
 
-                            <a href="https://disk.yandex.kz/d/iFU5Ub4AxWppbA" class="col-5 pt-4">
-                                <img  class="img-fluid" src="../images/pngwing%202.png" alt="">
-                            </a>
+                        <div class="col-5 pt-4">
+                            <img class="img-fluid scale" src="../images/pngwing%202.png" alt="">
                         </div>
                     </div>
+                </div>
                 </div>
 
                 <div class="section_bottom_text" >
@@ -66,15 +72,17 @@
                         Download directly from the site to avoid viruses and miners.*</h6>
                 </div>
 
-                <div class="polki_section_bottom">
-                    <img class="img-fluid omg" src="../images/Frame%2011.png" alt="">
+                <div class="polki_section_bottom" onclick="checkKeyPress">
+                    <img  class="polki" height="130">
+                    <div class="sprite-container">
+                        <div class="sprite-image"></div>
+                    </div>
                 </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="background-section2 row mx-0 text-md-center text-lg-start text-sm-center text-xs background_section">
-        <div class="container col-lg-3 col-md-12 " >
+           </div>
+       </div>
+   </div>
+    <div class="background-section2 row mx-0 text-md-center text-lg-start text-sm-center text-xs">
+        <div class="container col-lg-3 col-md-12 ">
             <div class="container pt-5 ps-3">
                 <h2 class="system-requirements">System <br>requirements</h2>
                 <p class="para_system_requirements">Only for Windows,<br>
@@ -89,47 +97,47 @@
             <div class="container mx-0 pt-5 ps-5 col-lg-6">
                 <table class="table table-borderless table-sm col-lg-8 col-sm-12">
                     <thead class="table_head">
-                    <tr>
-                        <th scope="col">Minimum</th>
-                    </tr>
+                        <tr>
+                            <th scope="col">Minimum</th>
+                        </tr>
                     </thead>
                     <tbody class="table_body">
-                    <tr>
-                        <td class="table_requirements">OC</td>
-                    </tr>
-                    <tr>
-                        <td class="table_performance">Windows 7(64-bit)</td>
-                    </tr>
-                    <tr>
-                        <td class="table_requirements">Processor</td>
-                    </tr>
-                    <tr>
-                        <td class="table_performance">Intel i3 - or equivalent AMD</td>
-                    </tr>
-                    <tr>
-                        <td class="table_requirements">Main memory</td>
-                    </tr>
-                    <tr>
-                        <td class="table_performance">1GB</td>
-                    </tr>
-                    <tr>
-                        <td class="table_requirements">Graphics card</td>
-                    </tr>
-                    <tr>
-                        <td class="table_performance">Nvidia GTX 660/GTX 1050</td>
-                    </tr>
-                    <tr>
-                        <td class="table_requirements">Disc space</td>
-                    </tr>
-                    <tr>
-                        <td class="table_performance">1GB</td>
-                    </tr>
-                    <tr>
-                        <td class="table_requirements">DirectX</td>
-                    </tr>
-                    <tr>
-                        <td class="table_performance">11</td>
-                    </tr>
+                        <tr>
+                            <td class="table_requirements">OC</td>
+                        </tr>
+                        <tr>
+                            <td class="table_performance">Windows 7(64-bit)</td>
+                        </tr>
+                        <tr>
+                            <td class="table_requirements">Processor</td>
+                        </tr>
+                        <tr>
+                            <td class="table_performance">Intel i3 - or equivalent AMD</td>
+                        </tr>
+                        <tr>
+                            <td class="table_requirements">Main memory</td>
+                        </tr>
+                        <tr>
+                            <td class="table_performance">1GB</td>
+                        </tr>
+                        <tr>
+                            <td class="table_requirements">Graphics card</td>
+                        </tr>
+                        <tr>
+                            <td class="table_performance">Nvidia GTX 660/GTX 1050</td>
+                        </tr>
+                        <tr>
+                            <td class="table_requirements">Disc space</td>
+                        </tr>
+                        <tr>
+                            <td class="table_performance">1GB</td>
+                        </tr>
+                        <tr>
+                            <td class="table_requirements">DirectX</td>
+                        </tr>
+                        <tr>
+                            <td class="table_performance">11</td>
+                        </tr>
 
                     </tbody>
                 </table>
@@ -185,18 +193,21 @@
             </div>
 
         </div>
-        <footer class="icon_bottom_text1 mt-0   ">
+
+        <audio id="sound" src="../images/shotsound.ogg"></audio>
+
+        <footer class="icon_bottom_text1">
             <div class="container">
                 <div class="row container_footer">
                     <div class="col-xl-10 col-sm-12 justify-content-center">
-                        <h3 class="text1__1">For contact:</h3>
-                        <h3 class="text1__2">insideaitu@gmail.com</h3>
+                        <h3 class="text1__1" style="color: white" >For contact:</h3>
+                        <h3 class="text1__2" style="color: white">insideaitu@gmail.com</h3>
                     </div>
                     <div class="col-xl-2 justify-content-end col-sm-12 justify-content-center  bottom_logo">
-                        <img class="bottom_logo_size" src="../images/logo.png" alt="">
+                        <img class="bottom_logo_size" id="musicSpan" src="../images/logo.png">
                     </div>
                 </div>
-                <div class="row social_media pt-3">
+                <div class="row social_media">
                     <div class="col-xl-auto col-sm-12 justify-content-center text_bottom2">
                         <p>Where to find us</p>
                     </div>
@@ -214,15 +225,38 @@
                 <div class="row">
                     <div class="col-12 last_bottom_text">
                         <p>The rights are not predisposed to a legal or natural person. However, please do not copy the idea or code.<br> If you want to continue the project, please email.</br></p>
-
                     </div>
                 </div>
             </div>
         </footer>
+
     </div>
 </section>
 
+<script>
+    window.addEventListener("click", checkKeyPress, false);
+    function checkKeyPress(key) {
+        document.querySelector('.sprite-container').classList.add('sprite-container_hide');
+    }
 
+    let image = document.getElementById('image');
+    function onload(){
+
+        image.animate([
+            {transform: 'scale(1) ', opacity: 0.9},
+            {transform: 'scale(1.2) ', opacity: 1},
+        ], {
+            duration: 4000,
+            delay: 1,
+            iterations: Infinity,
+            direction: 'alternate',
+            fill: 'forwards'
+        });
+    }
+    var musicSpan = document.getElementById('musicSpan');
+    musicSpan.addEventListener('click',function(){
+        document.getElementById('sound').play()
+    })
+</script>
 </body>
 </html>
-
