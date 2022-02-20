@@ -407,6 +407,12 @@ nav {
     color: #ffffff;
     opacity: 1;
 }
+.question{
+    font-size: 30px;
+    font-family: "Clash Display";
+    position: relative;
+    margin-top: 15px;
+}
 @media only screen and (max-width: 480px) {
     .intro{height: 210px;}
     .nav_link {display: none;}

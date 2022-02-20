@@ -201,6 +201,7 @@ justify-content: flex-end;
 .bottom_logo_size{
     width: 150px;
     height: 150px;
+    cursor: pointer;
 }
 .social_media{
     display: flex;
@@ -312,6 +313,8 @@ justify-content: flex-end;
     align-items: center;
     vertical-align: middle;
     cursor: pointer;
+    position: relative;top: auto;
+
 }
 .rectangle__top:hover {
     background:#777777;
@@ -351,6 +354,9 @@ justify-content: flex-end;
     background:#777777;
     border-radius: 3px;
 }
+.anime {
+   display: none;
+}
 @media only screen and (max-width: 553px) {
     .intro {height: 210px;}
     .nav_link {display: none;}
@@ -365,4 +371,37 @@ justify-content: flex-end;
     .topic__problem{font-size: 16px;}
     .rectangle___down{margin-top: 10px;}
     .container__picture__pop{height: 40px;margin-left: 20px;}
+}
+.sprite-container {
+    height: 32px;
+   display: none;
+    align-items: center;
+}
+.sprite-container_hide{
+    display: initial;
+}
+
+.sprite-image {
+    height: 160px;
+    width: 160px;
+    background: url("../images/walkvlevo1.png") 0 0;
+    animation: play 1s steps(2) infinite,
+    step 8s linear forwards;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+@keyframes play {
+    100% {
+        background-position: 320px;
+    }
+}
+
+@keyframes step {
+    100% {
+        left: 100%;
+    }
 }

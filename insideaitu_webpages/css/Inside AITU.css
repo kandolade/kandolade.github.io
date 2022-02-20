@@ -30,6 +30,15 @@ body
     width: 100%;
     margin: 300px auto 200px;
     display: flex;
+    transform: translateY(150%);
+    opacity: 0;
+    transition: all 0.8s ease-in-out 1s;
+}
+.intro__title._anim
+{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.8s ease-in-out 0.2s;
 }
 .play__button
 {
@@ -38,15 +47,18 @@ body
     width: 100%;
     margin: 0 auto;
     justify-content: right;
+
 }
 .playb
 {
-    transition: color linear .2s;
-    opacity: 1;
-}
-.playb:hover
-{
-    opacity: 0.6;
+    height: 50px;
+    max-width: 240px;
+    width: 100%;
+    background: url("../images/play__now.png");
+    background-color: #f9a825;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
 }
 .my_container
 {
@@ -62,11 +74,17 @@ body
 {
     width: 100%;
     position: absolute;
-    z-index: 1000;
+    z-index: 100;
 }
 .header__logo
 {
-    display: flex;
+    height: 100px;
+    max-width: 100px;
+    width: 100%;
+    background: url("../images/logo.png");
+    background-size: cover;
+    display: inline-block;
+    position: relative;
 }
 .header__inner
 {
@@ -78,16 +96,16 @@ body
 }
 .telegram__logo
 {
+    height: 70px;
     width: 100%;
-    max-width: 90px;
+    background: url("../images/telegram__logo.png");
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    max-width: 70px;
     margin: 0;
     align-items: center;
-    display: flex;
-    transition: color linear .2s;
-}
-.telegram__logo:hover
-{
-    opacity: 0.6;
+    cursor: pointer;
 }
 .nav
 {
@@ -316,7 +334,7 @@ body
 }
 .talks__def__containers
 {
-    width: 100%;
+    width:340px;
     height: 190px;
     background-color: #D3DFE3;
     justify-content: center;
@@ -332,7 +350,7 @@ body
 .talks__def__containers__down
 {
     max-width: 320px;
-    width: 100%;
+    width: 340px;
     height: 190px;
     background-color: #D3DFE3;
     margin-top: 20px;
@@ -398,7 +416,7 @@ body
     font-family: 'Clash Display', sans-serif;
     color: #F9A825;
     font-size: 85px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px black, -2px 2px yellow;
     margin: 55px 0;
 }
 .section4__main__img
@@ -448,57 +466,72 @@ body
 }
 
 .icon_bottom_text1{
-    display: flex;
-    flex-direction: row;
+    background-color: black;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.bottom_text1{
     justify-content: space-between;
     align-items: center;
-    border-bottom: 7px solid white;
 }
-
+.container_footer {
+    font-family: "Clash Display Variable";
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid white;
+}
 .text1__1{
-    display: flex;
+    font-size: 30px;
+    font-weight: 700;
     color: white;
-    font-size: 24px;
-    font-family: 'Clash Display', sans-serif;
 }
-
 .text1__2{
-    display: flex;
+    font-size: 44px;
+    font-weight: 700;    color: white;
 
-    color: white;
-    font-family: 'Clash Display', sans-serif;
-    font-size: 47px;
+
 }
-
-
+.bottom_logo{
+    display: flex;
+    justify-content: right;
+}
+.bottom_logo_size{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
 .social_media{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 50px 0 25px 0;
 }
-
-
+.container__photo{
+    margin-left: 25px;
+}
 .social_icons{
     display: flex;
     justify-content: space-between;
 }
-
-
 .text_bottom2{
-    margin: 0 0;
     display: flex;
     color: white;
     font-family: 'Clash Display', sans-serif;
-    font-size: 10px;
+    font-size: 25px;
 }
-
 .last_bottom_text{
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
     font-family: 'Clash Display', sans-serif;
-    font-size: 5px;
+    font-size: 11px;
+    margin-top: 25px;
+}
+.container__picture__logo{
+    height: 30px;
 }
 .rectangle__down {
     display: flex;
@@ -511,4 +544,91 @@ body
 .container__photo
 {
     margin: 10px 15px;
+}
+.fixed
+{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    color: black;
+    transition: all 0.2s ease-in-out 0.2s;
+    transform: translateY(20%);
+}
+.cont
+{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.cont.talks_animation
+{
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.contXR
+{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.contXR._anim_xR
+{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.contXL
+{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.contXL._anim_xL
+{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.butt_animation
+{
+    position: absolute;
+    background-color: inherit;
+    filter: invert(100%);
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 2px;
+    animation: animate 1s linear infinite;
+}
+.container{
+    max-width: 1100px;
+}
+@keyframes animate
+{
+    0%
+    {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100%
+    {
+        width: 700px;
+        height: 700px;
+        opacity: 0;
+    }
+}
+.butt
+{
+    overflow: hidden;
+}
+@media only screen and (max-width: 553px) {
+    .text1__1 {
+        display: none;
+    }
+
+    .text1__2 {
+        display: none;
+    }
 }
